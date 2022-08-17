@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- 18.4.0
+  - stable
 deploy:
   provider: npm
   email: thiago.hofmeister@gmail.com
