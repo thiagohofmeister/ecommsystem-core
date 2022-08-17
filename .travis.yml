@@ -15,7 +15,6 @@ jobs:
         provider: npm
         email: thiago.hofmeister@gmail.com
         api_key: HSfFvcM26UXBRHcjqQTahLyp+Yv4unamyPJxOmQqEFx7eS75cGGBoGSy6bN42M/g/ugnIPxzgKfZdXDDglLgnMOcDyV8teQwxznbS9KbztHnA7Vg1uSYhmqFu8+mCwKGjeu75eJKWYMbQq8tWTOduM4ha5RT6xWUXSLezJrFzJbn+GMtRDgiFOTYO58NReJoiGSdEDxGwdOxvSvN1KBHy6bdcQ0txPZ0ExrLS+nu0ouMS52tDTffLNTR7fntlnCbX/E7QlaNhEaQxrqWomK9FS7IelUo+/zr0VJ6MxsiBvPKR0Doub4ZA6Nn5BxAfVT1b3ifsVTj0PoidHz7120t4/5RZ+ZvIYvTewCrC+1nCNTs5L4nMZ248wB2mmFe95PNWqohfooK35jFRdeNWfHlkvRmoVrScW0sOATYx29cl8OLb/G58VUKtItJKr4iupSZ7gJeZGDW6AkMUX5Rf7qIoIsx/1b/AxEWwiVsykGbcubX7kBgD8IhYBK0XGik5IWPanDtaMEou8LI4JO4ikmLD58tdTOGB3LtTcONr/VpTyaQUj3zWKeQEbHP4/3+pQriqF2en0zABD6wsH48wCB1XqiFiP+NZ2nvLtgBXhLgCDfNSIbGozjqombmP4YbtgH4B0HEThfnbRNYYWAMS8NvjAHueCrqaF4i/2ncU/y/hSU=
-  on:
       repo: thiagohofmeister/ecommsystem-core
         skip_cleanup: true
         on:
