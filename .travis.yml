@@ -6,10 +6,8 @@ install:
   - yarn install
 jobs:
   include:
-    - stage: Build and test
+    - stage: Build
       script:
-        - yarn lint
-        - yarn test
         - yarn build
     - stage: npm release
       script: yarn build
