@@ -1,0 +1,25 @@
+.DS_Store
+.env
+node_modules/
+/dist/
+/lib/
+*.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+nbproject
+
+# Jetbrains
+JetBrains.Dockerfile
+start.sh
+
+/docker/mysql/data
