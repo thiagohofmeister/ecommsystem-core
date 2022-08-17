@@ -22,7 +22,3 @@ jobs:
         skip_cleanup: true
         on:
           tags: true
-branches:
-  only:
-    - master
-    - /^v[0-9]+.*$/
