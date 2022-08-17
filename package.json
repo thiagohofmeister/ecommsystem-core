@@ -51,9 +51,7 @@
     "ts-sinon": "^2.0.2",
     "typescript": "^4.7.4"
   },
-  "config": {
-    "ghooks": {
-      "pre-commit": "npm run standard"
-    }
+  "publishConfig": {
+    "access": "public"
   }
 }
