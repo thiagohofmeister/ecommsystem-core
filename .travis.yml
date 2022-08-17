@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - 17
 deploy:
-  provider: npm
+  provider: yarn
   email: thiago.hofmeister@gmail.com
   api_key:
     secure: d9XkyP6m80yVjbfS2ajlhgemJ53vl0CBLexGTxeHNIAgfyV+DZlpm0/pm1HWMhua9GkNG+WfdVY3nEsZ2Yv7akI7RqnSp1N56OD9oJv+luB5q37WAGMEyzDt8BuUdYmsCn4OGUTYqPPadwpwXFZ7I3wzh6BmOhSPogI1kV7ewzGXBjwBa+jvwH4YMtn3OhncmBzQQdBKnFMbPHTEj2GJvAkbMzDn6GnIFIY327rpErxirkKRdROodc8eeOwaDzh35Pq30V47dE/ER/rPnm+7TfzJ1XB1jdiBKEYEt+g1dd7+r6jxmGRUKCp9iXw/OsAp7hwBdXRrGwC5/LWmfq5Was2GSZk7CuVxPA4j2qKqt+sn4r1EezcY0D/Aqt4T4kzgKVq0l46G89csKtLGD8p/9nMcqxzSGtCG3pcFeQPArDEdFmWojA7Wq59khgMoWrpghPzYv5N0bga3S0a3Q+FEa0oyms0wT0Gr97v3OIS1jtIrajz/hw8jS/B7HUl+h2+pTd5sV8x8yLBRQlTSqyN+NBmdziuJJ+TuWT4clKOuZgCt1rFFphpOhHoEtzSoZcMzNAqHaX44vkiI4HJLiobtAWwSSoWPTnCmNYeTB42ubrajapBY45w5t1orwhQMJRGZLIFg9ep2CtrvcA7aEfXuNDc23A+iWs78Hae2abQXq6g=
