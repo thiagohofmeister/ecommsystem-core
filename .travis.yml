@@ -13,6 +13,7 @@ jobs:
         - yarn build
       deploy:
         edge: true
+        access: public
         provider: npm
         email: '$NPM_EMAIL'
         api_key: '$NPM_TOKEN'
