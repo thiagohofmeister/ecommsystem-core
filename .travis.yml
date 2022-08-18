@@ -11,6 +11,7 @@ jobs:
       if: branch = master
       before_deploy:
         - yarn build
+        - cp ./package.json ./dist/
       deploy:
         edge: true
         access: public
