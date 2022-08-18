@@ -6,7 +6,8 @@
   "author": "Thiago Hofmeister <thiago.hofmeister@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "echo 'not implemented yet'"
   },
   "dependencies": {
     "amqplib": "^0.10.0",
