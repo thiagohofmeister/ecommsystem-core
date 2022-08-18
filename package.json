@@ -1,8 +1,8 @@
 {
-  "name": "@ecommsystem/ecommsystem-core",
+  "name": "ecommsystem-core",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:thiagohofmeister/manager.git",
+  "repository": "git@github.com:thiagohofmeister/ecommsystem-core.git",
   "author": "Thiago Hofmeister <thiago.hofmeister@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -51,8 +51,5 @@
     "ts-node-dev": "^2.0.0",
     "ts-sinon": "^2.0.2",
     "typescript": "^4.7.4"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }
