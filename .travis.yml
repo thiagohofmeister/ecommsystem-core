@@ -11,11 +11,11 @@ jobs:
       if: branch = master
       before_deploy:
         - yarn build
-        - cp ./package.json ./dist/
+        - cp ./package.json ./lib/
       deploy:
         edge: true
         access: public
-        src: './dist'
+        src: './lib'
         provider: npm
         email: '$NPM_EMAIL'
         api_key: '$NPM_TOKEN'
