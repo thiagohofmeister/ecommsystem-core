@@ -12,6 +12,7 @@ jobs:
       before_deploy:
         - yarn build
         - cp ./package.json ./lib/
+        - npm config set registry https://registry.npmjs.org/
       deploy:
         edge: true
         access: public
