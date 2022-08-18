@@ -1,12 +1,12 @@
 {
-  "name": "ecommsystem-core",
+  "name": "@ecommsystem/ecommsystem-core",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:thiagohofmeister/manager.git",
   "author": "Thiago Hofmeister <thiago.hofmeister@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf ./dist && tsc && cp package.json ./dist",
     "test": "echo 'not implemented yet'"
   },
   "dependencies": {
